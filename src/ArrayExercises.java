@@ -16,7 +16,7 @@ class ArraysExercises {
             System.out.println(people[i].getName());
 
         }
-        people = addPerson(people, new Person ("New Student"));
+        people = addPerson(people, new Person ("New grades.Student"));
         System.out.println();
         for (Person person: people) {
             System.out.println(person.getName());
